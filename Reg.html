@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regester</title>
+    <style>
+        form{
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #f7f7f7;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Style text inputs */
+input[type="text"],
+input[type="password"] {
+    width: 70%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    border-radius: 5px;
+}
+
+/* Style the login button */
+input[type="submit"] {
+    background-color: #008000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* Style the register button */
+input[type="button"] {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
+    </style>
+</head>
+<body>
+    <form>
+        <label >Full name :<input type="text" placeholder="Enter full name"></label><br> <br>
+        <label >Email  :   <input type="text" placeholder="Enter full name"></label><br> <br>
+        <label >DOB :      <input type="date" placeholder="Enter Date of birth"></label><br> <br>
+        <label >New password <input type="password" placeholder="Enter New password"></label><br> <br>
+        <label >conform password <input type="password" placeholder="Reenter password"></label> <br> <br>
+
+
+        <a href="index(fashion).html"><input type="button" value="signup"></a>
+
+
+        
+    </form>
+    
+</body>
+</html>
+<!-- <?php
+    if (isset($_SESSION['user_id'])) {
+    // User is logged in, show "Welcome" and "Logout" options
+    echo 'Welcome, User!';
+    echo '<a href="logout.php">Logout</a>';
+    } else {
+    // User is not logged in, show "Sign Up" and "Sign In" options
+    echo '<a href="signup.php">Sign Up</a>';
+    echo '<a href="signin.php">Sign In</a>';
+    }
+?> -->

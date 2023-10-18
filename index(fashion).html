@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fashioner</title>
+    <link rel="loginpage" href="login.html">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+        body{
+            background-image: url("fashion photo's/shirts.jpg");
+            backdrop-filter: 5px;
+            /* background-size: cover;
+            position: absolute; */
+        }
+        #navbar{
+            background-color: rgba(94, 132, 194, 0.221);
+        }
+        a{
+            font-size: 25px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-style: normal;
+        }
+        input{
+            align-self: center;
+            
+            
+        }
+        .dropdown-menu{
+
+            
+        }
+        h1{
+            text-align: center;
+            font-family:'Courier New', Courier, monospace
+        }
+
+        /* Style the entire navigation bar */
+#navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex; /* Use flexbox to arrange items horizontally */
+    justify-content: space-between; /* Distribute items horizontally */
+}
+
+/* Style the links in the navigation bar */
+#navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Style the dropdown menu and its items */
+#navbar .dropdown-menu {
+    display: none;
+    background-color: #333;
+    position: absolute;
+    z-index: 1;
+    
+}
+
+#navbar .dropdown-menu li {
+    padding: 10px;
+    border-bottom: 1px solid #555;
+    
+}
+
+/* Style the search input and button */
+#navbar .d-flex {
+    display: flex; /* Use flexbox to arrange items horizontally */
+    align-items: center; /* Vertically center items within the flex container */
+}
+
+#navbar input[type="search"] {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 5px;
+    margin-right: 10px; /* Add space to the right of the input */
+}
+
+#navbar button[type="submit"] {
+    background-color: #008000;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+}
+
+/* Hover styles for links */
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Styles for the dropdown on hover */
+#navbar .nav-link:hover + .dropdown-menu {
+    display: block;
+}
+
+
+    </style>
+</head>
+<body>
+   
+    <h1>Wellcome to fashioner </h1>
+    <nav id="navbar" >
+        <a href="">Home </a> |
+        <a href="">About-us</a> |
+        <a href="">Contact-us</a> |
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Man</a></li>
+            <li><a class="dropdown-item" href="#">Woman</a></li>
+            <!-- <li><hr class="dropdown-divider"></li> -->
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <a class="nav-link dropdown-toggle show" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                Dropdown link
+              </a>
+            </ul>
+        <a ></a>
+
+        <a href= "login.html">sign in</a>|
+        <a href="Reg.html">signup</a>
+        
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+
+    
+    
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <!---->
+
+    
+
+    <!---->
+
+    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+    
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign in</title>
+    <!-- <link rel="loginpage" href="fashion.html"> -->
+    <style>
+        /* body{
+            background-color: blanchedalmond;
+            padding: 500px;
+            border: 2px solid;
+
+        }
+        label{
+            text-align: center;
+            text-justify: auto;
+            /* text-size-adjust: ; 
+            
+
+        }
+
+        form{
+            /* height: 450%;
+            width: 450%; 
+            border: 2px solid;
+            
+        } */
+
+        /* Style the form container */
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+/* Style labels */
+label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Style text inputs */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style the login button */
+input[type="submit"] {
+    background-color: #008000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* Style the register button */
+input[type="button"] {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+         
+
+
+
+    </style>
+</head>
+<body>
+
+    <form action="">
+        <label>username</label><br>
+        <input id="username"type="text" name="username" placeholder="username" required> <br>
+        <label>password</label><br>
+        <input id="password" type="password" name="password" placeholder="Enter your password" required><br> <br>
+
+        <a href="index(fashion).html"><input type="button" value="login"></a>
+        <a href="Reg.html"><input type="button" value="Regester" ></a>
+    </form>
+
+
+
+    <script>
+        function validateForm() {
+            // Get the values from the form fields
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+
+            // You should perform server-side validation and authentication here.
+            // This example just checks if the fields are filled for demonstration purposes.
+            if (username === "" || password === "") {
+                document.getElementById("login-status").textContent = "Please fill in both username and password.";
+                return false; // Prevent form submission
+            } else {
+                // You can redirect to the main page if the user credentials are valid.
+                return true; // Allow form submission
+            }
+        }
+    </script>
+</body>
+</html>
